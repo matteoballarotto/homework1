@@ -1,0 +1,5 @@
+<launch>
+	<node name="nodo1" pkg="homework1" type="nodo1.py" />
+	<node name="nodo2" pkg="homework1" type="nodo2.py" launch-prefix="gnome-terminal -e"/>
+    <node name="nodo3" pkg="homework1" type="nodo3.py" output="screen" />
+</launch>
