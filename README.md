@@ -22,6 +22,8 @@ Di seguito lo schema dei nodi e il dettaglio sull'invio dei messaggi <br>
 <br><br>
 Il nodo uno manda una volta al secondo il messaggio al nodo 3, mentre il nodo 2 una volta effettuata la selezione da tastiera  invia la scelta al nodo 3 il quale, una volta letta, mostra il messaggio relativo
 
+
+### Esecuzione
 <br><br>
 Una volta clonato il repository, spostarlo nel workspace con il comando <br>
 ```
@@ -67,5 +69,8 @@ Terminale 4: <br>
 Una volta terminata l'esecuzione, uscire con CTRL+C
 
 
-
+### Funzionamento specifico <br>
+Una volta a pieno regime, ovvero con tutti e tre i nodi attivi, il nodo 3, ovvero il listener, riceve una volta al secondo il messaggio dal nodo1, mentre la scelta la riceve solo quando l'utente la inserisce all'interno della console.<br>
+Una volta ricevuta, mostra il messaggio in base alla scelta effettuata.<br>
+Dopodichè di rimette in attesa fino ad altra scelta.
 
