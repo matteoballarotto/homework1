@@ -36,24 +36,32 @@ Il sistema può essere fatto partire i due modi: <br>
 <br>
 • aprendo 4 terminali, nei quali digitare: <br>
 Terminale 1: <br>
+
 ```
   roscore
 ```
+
 <br>
 Terminale 2: <br>
+
 ```
   rosrun homework1 nodo1.py
 ```
+
 <br>
 Terminale 3: <br>
+
 ```
   rosrun homework1 nodo2.py
 ```
+
 <br>
 Terminale 4: <br>
+
 ```
   rosrun homework1 nodo3.py
 ```
+
 <br>
 
 Una volta terminata l'esecuzione, uscire con CTRL+C
